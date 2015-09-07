@@ -46,6 +46,7 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
+
 				<section>
 					<h1>Reveal.js-menu</h1>
 					<h3>A slideout menu for navigating reveal.js presentations</h3>
@@ -86,78 +87,17 @@
 				</section>
 
 				<section>
-					<h3>Left or Right</h3>
-					<p>You can configure the menu to slide in from the left or right</p>
-				</section>
-
-				<section>
 					<h3>Markers</h3>
 					<p>The slide markers in the menu can be useful to show <br/>you the progress through the presentation.</p>
 					<p>You can hide them if you want.</p>
 					<p>You can also add slide numbers.</p>
 				</section>
 
-				<section>
-					<h3>Slide Titles</h3>
-					<p>
-						The menu uses the first heading to label each slide<br/>
-						but you can specify another label if you want.
-					</p>
-					<p>
-						Use a <code>data-menu-title</code> attribute in the section element to give the slide a custom label,
-						or add a <code>menu-title</code> class to any element in the slide you wish.
-					</p>
-				</section>
-
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>The menu indents your vertical slides so it's easy to see the structure of your presentation.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Next slide down</h2>
-					</section>
-					<section>
-						<h2>At the bottom</h2>
-						<br>
-						<a href="#/2">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
-
-				<section>
-					<h3>Themes</h3>
-					<p>The menu can also be used to change the <br/>theme of your presentation.</p>
-					<p>Just click the Themes button at the top of the menu.</p>
-					<p>The list of themes can be configured in the options.</p>
-				</section>
-
-				<section>
-					<h3>Transitions</h3>
-					<p>You can also change the default <br/>transition style from the menu.</p>
-				</section>
-
-				<section data-menu-title="Hiding menu panels">
-					<p>Of course,</p>
-					<p>if you don't want to see the <i>Themes</i> or <i>Transitions</i> menus you can hide them in the options.</p>
-				</section>
-
-				<section>
-					<h3>Speaker View</h3>
-					<p>The menu works independently in the speaker view.</p>
-					<p>You can changes slides without your audience <br/>seeing you doing any of it.</p>
-				</section>
-
 				<section style="text-align: left;">
 					<h1>THE END</h1>
-					<p><a href="https://github.com/denehyg/reveal.js-menu/archive/master.zip">Download reveal.js-menu</a> and add it to your plugin folder</p>
-					<p>Have a look at the <a href="https://github.com/denehyg/reveal.js-menu">source code &amp; documentation</a></p>
-					<p>And don't forget to check out <a href="https://github.com/hakimel/reveal.js">Reveal.js</a> if you haven't already</p>
+					<p>Download reveal.js-menu and add it to your plugin folder</p>
+					<p>Have a look at the source code &amp; documentation</p>
+					<p>And don't forget to check out Reveal.js if you haven't already</p>
 				</section>
 
 			</div>
@@ -183,7 +123,8 @@
 				help: true,
 				previewLinks: false,
 				hideAddressBar: true,
-				autoslide: 10000,
+				autoslide: 1000,
+				rtl: false,
 				transition: 'convex', // none/fade/slide/convex/concave/zoom
 
 				menu: {
